@@ -1,0 +1,19 @@
+{
+  "extends": "@react-native/typescript-config/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "importHelpers": true,
+    "paths": {
+      "*": ["src/*"],
+      "$common/*": ["src/common/*"],
+      "$components/*": ["src/common/components/*"],
+      "$constants/*": ["src/common/constants/*"],
+      "$hooks/*": ["src/common/hooks/*"],
+      "$navigation/*": ["src/common/navigation/*"],
+      "$network/*": ["src/common/network/*"],
+      "$redux/*": ["src/common/redux/*"],
+      "$dashboard/*": ["src/dashboard/*"],
+      "$settings/*": ["src/settings/*"]
+    }
+  }
+}
